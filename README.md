@@ -2,7 +2,6 @@
 
 ## Description
 
-First challenge of bootcamp.
 Demonstrating refactoring skills of a client website, to include;
 - Semantic HTML elements
 - Following a logical structure
@@ -13,16 +12,16 @@ Demonstrating refactoring skills of a client website, to include;
 ## Installation
 
 Run the website.
-No installation required
+No installation required.
 
 ## Usage
 
 Load the website, and navigate as you wish.
-Links in the header will take you to the desired destination
+Links in the header will take you to the desired destination.
 
 ## Credits
 
-No collaborators
+No collaborators.
 
 ## Features
 
@@ -30,3 +29,7 @@ No collaborators
 - Semantic HTML folllowing logical structure
 - Accessible website to help with SEO
 - Grouped CSS elements to help with accessibility
+
+## License
+
+MIT License. Please refer to repository.
