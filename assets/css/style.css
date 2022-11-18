@@ -28,7 +28,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+/* Changed header div to nav element */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,11 +37,11 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -96,30 +97,9 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /* Grouped together repeating selectors into single selector */
-/* Styling all individual elements in benefit class   */
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Moved benefit selectors to bottom of page, following how code is written */
 /* Styling each individual element inside content class   */
 .search-engine-optimization,
 .online-reputation-management,
@@ -145,6 +125,30 @@ aside {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+
+/* Styling all individual elements in benefit class   */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* Appropriately spacing footer, with different font   */
